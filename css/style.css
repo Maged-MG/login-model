@@ -1,0 +1,61 @@
+/** ------fonts--------- */
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+/**----------- vars ----------*/
+:root {
+  --main-text-color: rgb(52, 52, 52);
+  --sec-1-text-color: rgb(153, 153, 153);
+  --sec-2-text-color: rgb(116, 129, 130);
+  --sec-3-text-color: rgb(238, 238, 238);
+  --sec-4-text-color: rgb(136, 136, 136);
+  --main-1-bg-color: #ffffff;
+  --main-2-bg-color: #f7f7f7;
+  --sec-bg-color: #f4f4f4;
+  --sec-2-bg-color: #1c1c1c;
+  --sec-3-bg-color: #5b5b5b;
+}
+/**----------- Globbal ----------*/
+* {
+  font-family: poppins;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat;
+}
+.vh-100 {
+  min-height: 100vh !important;
+}
+.sec2-bg-color {
+  background-color: var(--sec-2-bg-color);
+}
+.main-2-bg-color {
+  background-color: var(--main-2-bg-color);
+}
+.border-radius-none {
+  border-radius: 0px;
+}
+.style-1 {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.w-9 {
+  width: 9%;
+}
+.w-65 {
+  width: 65%;
+}
+
+.bottom-shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

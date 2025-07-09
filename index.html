@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- &-------- Navbar--------- -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bottom-shadow">
+        <div class="container w-75 ">
+            <div class="row justify-content-between w-100">
+                <div class="col-3 align-self-center">
+                    <a class="navbar-brand" href="#">Smart Login</a>
+                </div>
+                <div class="col-3 d-flex justify-content-end ">
+                    <button class="btn btn-outline-danger d-none">Logout</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+  
+
+    <!-- &-------- Login--------- -->
+
+    <section id="transform" class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card shadow border-0 w-50 mx-auto  p-5 text-center loginCard">
+            <h1>Smart Login System</h1>
+            <input type="text" id="mail" class="form-control mb-3" placeholder="Enter Your Email" aria-label="Username">
+            <input type="text" id="pass" class="form-control mb-3" placeholder="Enter Your Password" aria-label="Username">
+            <button id="loginBtn" class="btn btn-outline-success">Login</button>
+            <p class="fs-6 fw-normal mt-2">Don’t have an account? <a href="#" id="signUpLink" class="text-black">Sign Up</a></p>
+        </div>
+
+        <div class="card shadow border-0 w-50 mx-auto  p-5 text-center signupCard d-none">
+            <h1>Smart Login System</h1>
+            <input type="text" id="upName" class="form-control mb-3" placeholder="Enter Your Name" aria-label="Username">
+            <input type="text" id="upMail" class="form-control mb-3" placeholder="Enter Your Email" aria-label="Username">
+            <input type="text" id="upPass" class="form-control mb-3" placeholder="Enter Your Password" aria-label="Username">
+            <button id="signUpBtn" class="btn btn-outline-success">Sign Up</button>
+            <p class="fs-6 fw-normal mt-2">You have an account? <a href="#" id="signinLink" class="text-black">Sign in</a></p>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
